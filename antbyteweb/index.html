@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<!-- Content Security Policy: restrict where resources may load from -->
+<meta http-equiv="Content-Security-Policy"
+  content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'" />
+<meta name="referrer" content="strict-origin-when-cross-origin" />
+
+<title>ANT BYTE — Software engineered like a swarm</title>
+<meta name="description" content="ANT BYTE builds custom software, web & mobile apps, cloud, and AI systems — precise, coordinated engineering for ambitious companies." />
+<link rel="canonical" href="https://antbyte.example/" />
+<link rel="icon" href="assets/icons/favicon.ico" sizes="any" />
+<link rel="icon" type="image/png" sizes="32x32" href="assets/icons/favicon-32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="assets/icons/favicon-16.png" />
+<link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png" />
+<link rel="manifest" href="site.webmanifest" />
+<meta name="theme-color" content="#d0193c" />
+
+<!-- Open Graph / Twitter -->
+<meta property="og:title" content="ANT BYTE — Software engineered like a swarm" />
+<meta property="og:description" content="Custom software, web, mobile, cloud and AI. Precise, coordinated engineering." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://antbyte.example/" />
+<meta property="og:image" content="https://antbyte.example/assets/images/og-image.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="ANT BYTE — Software engineered like a swarm" />
+<meta name="twitter:description" content="Custom software, web, mobile, cloud and AI. Precise, coordinated engineering." />
+<meta name="twitter:image" content="https://antbyte.example/assets/images/og-image.png" />
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+
+<!-- Styles -->
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/responsive.css" />
+<link rel="stylesheet" href="css/animations.css" />
+
+<!-- Structured data -->
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Organization","name":"ANT BYTE","url":"https://antbyte.example","description":"Custom software, web, mobile, cloud and AI engineering.","sameAs":["https://linkedin.com","https://github.com","https://twitter.com"]}
+</script>
+</head>
+<body>
+<a href="#home" class="skip">Skip to content</a>
+<div id="progress"></div>
+
+<header id="header">
+  <div class="wrap nav">
+    <a href="#home" class="logo" aria-label="ANT BYTE home"><img class="on-dark" src="assets/images/logo-white.png" alt="ANT BYTE" width="120" height="34" /><img class="on-light" src="assets/images/logo.png" alt="ANT BYTE" width="120" height="34" /></a>
+    <nav class="nav-links" id="menu" aria-label="Primary">
+      <a href="#services">Services</a>
+      <a href="#work">Work</a>
+      <a href="#why">Why us</a>
+      <a href="#faq">FAQ</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-tools">
+      <button class="icon-btn" id="theme" aria-label="Toggle light or dark theme" title="Toggle theme">◐</button>
+      <a href="#contact" class="btn btn-primary u-btn-sm">Start a project</a>
+      <button class="icon-btn burger" id="burger" aria-label="Open menu" aria-expanded="false">≡</button>
+    </div>
+  </div>
+</header>
+
+<main id="home">
+<!-- HERO -->
+<section class="hero">
+  <canvas id="swarm" aria-hidden="true"></canvas>
+  <div class="wrap hero-inner">
+    <p class="eyebrow">Software engineered like a swarm</p>
+    <h1>We build systems that <span class="hl">move as one.</span></h1>
+    <p class="lead">ANT BYTE designs and ships custom software, web &amp; mobile apps, cloud platforms and AI systems — coordinated, resilient, and precise down to the byte.</p>
+    <div class="hero-cta">
+      <a href="#contact" class="btn btn-primary">Start a project →</a>
+      <a href="#work" class="btn btn-ghost">See our work</a>
+    </div>
+    <div class="hero-strip">
+      <div><span data-count="23" data-suffix="+">12+</span><small>Projects shipped</small></div>
+      <div><span data-count="87" data-suffix="%">87%</span><small>Client retention</small></div>
+      <div><span data-count="9" data-suffix=" yrs">0</span><small>Engineering craft</small></div>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section id="services">
+  <div class="wrap">
+    <div class="head reveal">
+      <p class="eyebrow">What we do</p>
+      <h2>One colony, every layer of the stack.</h2>
+      <p>From first sketch to production scale, each capability is a specialist team that plugs into a single coordinated delivery.</p>
+    </div>
+    <div class="grid g3">
+      <div class="card reveal"><div class="ic" aria-hidden="true">&lt;/&gt;</div><h3>Web Development</h3><p>Fast, accessible, conversion-focused sites and web apps built on solid foundations.</p><ul><li>Design systems</li><li>Performance budgets</li><li>SEO-ready</li></ul></div>
+      <div class="card reveal"><div class="ic" aria-hidden="true">▢</div><h3>Mobile Apps</h3><p>Native-feeling iOS &amp; Android products people actually keep on their home screen.</p><ul><li>Cross-platform</li><li>Offline-first</li><li>App store launch</li></ul></div>
+      <div class="card reveal"><div class="ic" aria-hidden="true">◐</div><h3>UI/UX Design</h3><p>Research-led interfaces with a premium finish and a clear path to conversion.</p><ul><li>User research</li><li>Prototyping</li><li>Handoff-ready</li></ul></div>
+      <div class="card reveal"><div class="ic" aria-hidden="true">✦</div><h3>AI Solutions</h3><p>Practical AI — assistants, automation and models wired into real workflows.</p><ul><li>LLM integration</li><li>RAG pipelines</li><li>Evaluation</li></ul></div>
+      <div class="card reveal"><div class="ic" aria-hidden="true">☁</div><h3>Cloud Solutions</h3><p>Infrastructure that scales quietly, stays secure, and never wakes you at 3am.</p><ul><li>Cloud architecture</li><li>CI/CD</li><li>Observability</li></ul></div>
+      <div class="card reveal"><div class="ic" aria-hidden="true">⟲</div><h3>Automation &amp; Consulting</h3><p>We remove the manual work and advise on the systems that carry your business.</p><ul><li>Workflow automation</li><li>API integration</li><li>Digital transformation</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<!-- WHY -->
+<section class="why" id="why">
+  <div class="wrap why-grid">
+    <div class="reveal">
+      <p class="eyebrow">Why ANT BYTE</p>
+      <h2 class="u-h2">Small units. Serious coordination.</h2>
+      <p class="u-muted">A single ant is limited. A colony builds cathedrals. We work the same way — tight, senior teams that share context and ship as one.</p>
+      <a href="#contact" class="btn btn-ghost u-mt">Talk to an engineer</a>
+    </div>
+    <div class="why-list">
+      <div class="why-item reveal"><div class="n">01</div><div><h4>Senior by default</h4><p>No hand-offs to juniors. The people who scope your work build it.</p></div></div>
+      <div class="why-item reveal"><div class="n">02</div><div><h4>Built to outlast us</h4><p>Documented, tested, maintainable code your team can own from day one.</p></div></div>
+      <div class="why-item reveal"><div class="n">03</div><div><h4>Fixed, honest pricing</h4><p>Clear scope and milestones. You always know what the next step costs.</p></div></div>
+      <div class="why-item reveal"><div class="n">04</div><div><h4>Ship in weeks</h4><p>Momentum matters. We deliver working software early and often.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- WORK -->
+<section id="work">
+  <div class="wrap">
+    <div class="head reveal">
+      <p class="eyebrow">Selected work</p>
+      <h2>Trails we've built.</h2>
+    </div>
+    <div class="filters reveal" id="filters" role="group" aria-label="Filter projects">
+      <button class="active" data-f="all">All</button>
+      <button data-f="web">Web</button>
+      <button data-f="mobile">Mobile</button>
+      <button data-f="ai">AI</button>
+    </div>
+    <div class="grid g3" id="projects">
+      <article class="proj reveal" data-cat="web"><div class="thumb" aria-hidden="true">FINTECH</div><div class="body"><span class="tag">Web · Northwind Capital</span><h3>Trading dashboard</h3><p>Real-time portfolio platform handling millions of ticks per second.</p><div class="chips"><span>JS</span><span>WebSocket</span><span>Cloud</span></div></div></article>
+      <article class="proj reveal" data-cat="mobile"><div class="thumb" aria-hidden="true">HEALTH</div><div class="body"><span class="tag">Mobile · Vitalis</span><h3>Care companion app</h3><p>Offline-first patient app trusted by 40k+ daily users.</p><div class="chips"><span>iOS</span><span>Android</span><span>Sync</span></div></div></article>
+      <article class="proj reveal" data-cat="ai"><div class="thumb" aria-hidden="true">AI</div><div class="body"><span class="tag">AI · Ledgerly</span><h3>Document assistant</h3><p>RAG assistant that cut invoice processing time by 74%.</p><div class="chips"><span>LLM</span><span>RAG</span><span>Python</span></div></div></article>
+      <article class="proj reveal" data-cat="web"><div class="thumb" aria-hidden="true">COMMERCE</div><div class="body"><span class="tag">Web · Loomrise</span><h3>Headless storefront</h3><p>Sub-second storefront that lifted conversion 31%.</p><div class="chips"><span>JS</span><span>Edge</span><span>SEO</span></div></div></article>
+      <article class="proj reveal" data-cat="mobile"><div class="thumb" aria-hidden="true">LOGISTICS</div><div class="body"><span class="tag">Mobile · Cartway</span><h3>Fleet routing app</h3><p>Driver app optimizing 12k daily deliveries in real time.</p><div class="chips"><span>Maps</span><span>Realtime</span></div></div></article>
+      <article class="proj reveal" data-cat="ai"><div class="thumb" aria-hidden="true">SUPPORT</div><div class="body"><span class="tag">AI · Helm</span><h3>Support automation</h3><p>Auto-resolves 60% of tickets with human handoff.</p><div class="chips"><span>NLP</span><span>Automation</span></div></div></article>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section class="u-flush-top">
+  <div class="wrap">
+    <div class="stats">
+      <div class="stat reveal"><b data-count="120" data-suffix="+">0</b><small>Projects delivered</small></div>
+      <div class="stat reveal"><b data-count="45" data-suffix="+">0</b><small>Engineers in the colony</small></div>
+      <div class="stat reveal"><b data-count="98" data-suffix="%">0</b><small>Retention rate</small></div>
+      <div class="stat reveal"><b data-count="14" data-suffix="">0</b><small>Countries served</small></div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="u-surface-y">
+  <div class="wrap">
+    <div class="head reveal"><p class="eyebrow">Trusted by</p><h2>What partners say.</h2></div>
+    <div class="quotes">
+      <div class="quote reveal"><p>"They shipped in six weeks what our last vendor couldn't in a year. Rare to find a team this fast that's also this careful."</p><div class="who"><div class="av" aria-hidden="true">MR</div><div><b>Maya Ruiz</b><small>CTO, Northwind Capital</small></div></div></div>
+      <div class="quote reveal"><p>"ANT BYTE felt like an extension of our own team. Senior, calm, and relentless about quality."</p><div class="who"><div class="av" aria-hidden="true">JT</div><div><b>Jonah Tan</b><small>Founder, Loomrise</small></div></div></div>
+      <div class="quote reveal"><p>"The AI assistant they built pays for itself every single month. Best engineering partner we've had."</p><div class="who"><div class="av" aria-hidden="true">EK</div><div><b>Elena Kovač</b><small>Ops Lead, Ledgerly</small></div></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section>
+  <div class="wrap">
+    <div class="cta-band reveal">
+      <h2>Have something worth building?</h2>
+      <p>Tell us where you're headed. We'll map the first trail and show you what shipping fast and right looks like.</p>
+      <a href="#contact" class="btn">Book a discovery call →</a>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+  <div class="wrap u-narrow">
+    <div class="head reveal"><p class="eyebrow">Questions</p><h2>Before you reach out.</h2></div>
+    <div id="faqList" class="reveal">
+      <div class="faq-item"><button class="faq-q">How do projects usually start?<span class="pl" aria-hidden="true">+</span></button><div class="faq-a"><p>With a short paid discovery: we scope the problem, define milestones, and give you fixed pricing before any build begins.</p></div></div>
+      <div class="faq-item"><button class="faq-q">How fast can you ship?<span class="pl" aria-hidden="true">+</span></button><div class="faq-a"><p>Most engagements have working software in hands within 3–6 weeks. We deliver in increments, not one big reveal.</p></div></div>
+      <div class="faq-item"><button class="faq-q">Do we own the code?<span class="pl" aria-hidden="true">+</span></button><div class="faq-a"><p>Fully. Everything is documented and handed over so your team can maintain and extend it independently.</p></div></div>
+      <div class="faq-item"><button class="faq-q">What if we need ongoing support?<span class="pl" aria-hidden="true">+</span></button><div class="faq-a"><p>We offer flexible maintenance and retainer options, or a clean handoff — whichever suits your team.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="u-surface">
+  <div class="wrap contact-grid">
+    <div class="reveal">
+      <p class="eyebrow">Get in touch</p>
+      <h2 class="u-h2-contact">Let's map your first trail.</h2>
+      <div class="info-row"><div class="ic" aria-hidden="true">✉</div><div><b>Email</b><span>hello@nepaltechbytenp.com</span></div></div>
+      <div class="info-row"><div class="ic" aria-hidden="true">☎</div><div><b>Phone</b><span>+977 98 28485330</span></div></div>
+      <div class="info-row"><div class="ic" aria-hidden="true">◷</div><div><b>Duty hours</b><span>Mon–Fri · 9:00 – 18:00</span></div></div>
+      <div class="info-row"><div class="ic" aria-hidden="true">⚲</div><div><b>Studio</b><span>Hetauda, Nepal · teams across countries</span></div></div>
+    </div>
+    <form class="reveal" id="form" novalidate action="https://api.web3forms.com/submit" method="POST">
+      <input type="hidden" name="access_key" value="634175ba-8e86-48c9-8be1-0f0cb2c524f1"> 
+      <div class="field"><label for="name">Name</label><input id="name" name="name" type="text" autocomplete="name" required /><div class="err">Please enter your name.</div></div>
+      <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" autocomplete="email" required /><div class="err">Enter a valid email address.</div></div>
+      <div class="field"><label for="msg">What are you building?</label><textarea id="msg" name="message" rows="4" required></textarea><div class="err">Tell us a little about your project.</div></div>
+      <button type="submit" class="btn btn-primary u-btn-full">Get a Call →</button>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div><a href="#home" class="logo" aria-label="ANT BYTE home"><img class="on-dark" src="assets/images/logo-white.png" alt="ANT BYTE" width="120" height="34" /><img class="on-light" src="assets/images/logo.png" alt="ANT BYTE" width="120" height="34" /></a><p>Software engineered like a swarm. Custom software, web, mobile, cloud and AI for ambitious companies.</p></div>
+      <div class="foot-col"><h5>Company</h5><a href="#why">About</a><a href="#work">Work</a><a href="#services">Services</a></div>
+      <div class="foot-col"><h5>Services</h5><a href="#services">Web &amp; Mobile</a><a href="#services">AI &amp; Cloud</a><a href="#services">Consulting</a></div>
+      <div class="foot-col"><h5>Connect</h5><a href="#" rel="noopener noreferrer">LinkedIn</a><a href="#" rel="noopener noreferrer">GitHub</a><a href="#" rel="noopener noreferrer">Twitter / X</a></div>
+    </div>
+    <div class="foot-bottom"><span>© 2026 ANT BYTE. All rights reserved.</span><span>Built without frameworks · byte by byte</span></div>
+  </div>
+</footer>
+
+<button id="top" aria-label="Back to top">↑</button>
+<div class="toast" id="toast" role="status" aria-live="polite">Message sent — we'll be in touch soon.</div>
+
+<!-- Scripts (deferred so they don't block render) -->
+<script src="js/main.js" defer></script>
+<script src="js/animations.js" defer></script>
+</body>
+</html>

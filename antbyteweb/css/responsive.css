@@ -1,0 +1,27 @@
+/* ============================================================
+   ANT BYTE — responsive.css
+   Mobile-first breakpoint overrides. Load AFTER style.css.
+   ============================================================ */
+
+/* Tablet and below */
+@media (max-width:900px){
+  .g3,.g4,.quotes,.foot-grid{grid-template-columns:1fr 1fr}
+  .stats{grid-template-columns:1fr 1fr}
+  .why-grid,.contact-grid{grid-template-columns:1fr;gap:2rem}
+
+  /* Slide-down mobile navigation */
+  .nav-links{
+    position:fixed;inset:72px 0 auto 0;flex-direction:column;
+    background:var(--surface);border-bottom:1px solid var(--border);
+    padding:1.5rem var(--sp);transform:translateY(-120%);
+    transition:var(--t);gap:1.2rem
+  }
+  .nav-links.open{transform:none}
+  .burger{display:grid}
+}
+
+/* Phones */
+@media (max-width:560px){
+  .g3,.g4,.quotes,.stats,.foot-grid{grid-template-columns:1fr}
+  .hero-strip{gap:1.5rem}
+}

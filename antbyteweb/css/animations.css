@@ -1,0 +1,18 @@
+/* ============================================================
+   ANT BYTE — animations.css
+   Scroll-reveal transitions and reduced-motion safety.
+   ============================================================ */
+
+/* Scroll reveal: elements start hidden, .in added by JS on view */
+.reveal{
+  opacity:0;
+  transform:translateY(26px);
+  transition:opacity .7s ease, transform .7s cubic-bezier(.2,.7,.2,1);
+}
+.reveal.in{opacity:1;transform:none}
+
+/* Respect users who prefer less motion — disable all animation */
+@media (prefers-reduced-motion:reduce){
+  *{animation:none !important;transition:none !important;scroll-behavior:auto}
+  .reveal{opacity:1;transform:none}
+}

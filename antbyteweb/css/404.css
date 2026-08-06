@@ -1,0 +1,5 @@
+/* ANT BYTE — 404 page styles */
+.nf{min-height:100vh;display:grid;place-items:center;text-align:center;padding:2rem}
+.nf h1{font-size:clamp(4rem,18vw,9rem);color:var(--brand)}
+.nf p{color:var(--muted);margin:1rem 0 2rem;max-width:420px}
+.nf .code{font-family:var(--f-mono);color:var(--muted);letter-spacing:.2em;font-size:.8rem}
