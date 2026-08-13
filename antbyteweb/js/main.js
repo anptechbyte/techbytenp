@@ -70,7 +70,6 @@ document.addEventListener('DOMContentLoaded', () => {
   const form = document.getElementById('form');
   const toast = document.getElementById('toast');
   form?.addEventListener('submit', (e) => {
-    e.preventDefault();
     let ok = true;
     const check = (id, test) => {
       const el = document.getElementById(id);
